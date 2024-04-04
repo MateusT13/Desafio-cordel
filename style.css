@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+:root {
+--font1: Verdana, Geneva, Tahoma, sans-serif;
+--font2: 'pasion one', cursive;
+--font3: 'Sriracha', cursive;
+
+}
+
+* {
+margin: 0px;
+padding: 0px;
+
+}
+html, body {
+background-color: darkgray;
+min-height: 100vh;
+
+
+}
+header{
+background-color: black;
+color: white;
+text-align: center;
+font-size: 2.5vw;
+}
+header > h1{
+padding-top: 50px;
+font-variant: small-caps;
+font-family: var(--font2);
+}
+header > p{
+padding-bottom: 50px;
+
+
+}
+
+header a, footer a {
+color: white;
+text-decoration: none;
+font-weight: bolder;
+
+
+}
+header a:hover,footer  a:hover {
+text-decoration: underline;
+
+}
+section{
+padding-top: 10vh;
+padding-bottom: 10vh;
+line-height: 2em;
+padding-left: 30px;
+font-family: var(--font3);
+}
+section > p {
+padding-bottom: 2em;
+padding: 10px;
+
+}
+
+section.normal {
+background-color:white;
+color: rgb(48, 45, 45);
+
+}
+section.imagem{
+background-color: rgb(255, 243, 243);
+color: rgb(0, 0, 0);
+text-shadow: 1px 1px 0px black;
+box-shadow: inset 6px 6px 13px 0px black;
+background-attachment: fixed;
+}
+section.imagem > p {
+
+width: 400px;
+background-color: rgba(0, 0, 0, 0.205);
+
+}
+section#img01 {
+background-image: url(https://www.bostonmedicalgroup.com.br/blog/wp-content/uploads/2023/06/Disfuncao-eretil-pode-ser-provocada-pelo-tabagismo.jpg);
+background-position: center center;
+background-size: cover;
+}
+section#img03{
+background-image: url(https://i0.wp.com/blog.drconsulta.com/wp-content/uploads/2016/10/Disfunc%CC%A7a%CC%83o-ere%CC%81til-doenc%CC%A7a-atinge-mais-de-1-milha%CC%83o-de-casos-por-ano.jpg);
+background-size: cover;
+background-position: left center;
+
+}
+footer{
+background-color: black;
+color: white;
+text-align: center;
+padding: 10px;
+}
